@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vincent de gracious</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 30px 40px;
+      max-width: 420px;
+      width: 90%;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #4e91f9;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 26px;
+    }
+
+    p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .social, .contact {
+      margin-top: 20px;
+    }
+
+    .social a, .contact a {
+      display: inline-block;
+      margin: 5px 10px;
+      text-decoration: none;
+      color: #4e91f9;
+      font-weight: bold;
+    }
+
+    .contact span {
+      display: block;
+      margin-top: 10px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img class="avatar" src="vincent.jpg" alt="Vincent's photo">
+    <h1>Vincent de gracious</h1>
+    <p>God is king</p>
+
+    <div class="social">
+      <a href="https://www.instagram.com/vincent_de1?igsh=Y253NWFjdXN6YTBv" target="_blank">Instagram</a>
+    </div>
+
+    <div class="contact">
+      <a href="https://wa.me/2348069918096" target="_blank">WhatsApp</a>
+      <span>📞 +234 806 991 8096</span>
+    </div>
+  </div>
+
+</body>
+</html>
